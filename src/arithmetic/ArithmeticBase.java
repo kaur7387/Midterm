@@ -16,6 +16,8 @@ import java.util.Scanner;
 public class ArithmeticBase 
 {
  public double x,y;
+ int number=2;
+ Arithmetic [] input= new Arithmetic[number];
     double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
